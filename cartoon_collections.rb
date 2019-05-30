@@ -21,6 +21,6 @@ end
 
 def find_the_cheese(list)
   list.find do |x|
-    
+    x == "cheddar" || x == "gouda" || x == "camembert"
  end
 end
