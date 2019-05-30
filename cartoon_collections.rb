@@ -9,6 +9,6 @@ end
 def summon_captain_planet(list)
   list.collect do |element|
     element.capitalize << "!"
-    binding.pry
+    # binding.pry
   end
 end
