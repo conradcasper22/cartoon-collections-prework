@@ -12,3 +12,6 @@ def summon_captain_planet(list)
     # binding.pry
   end
 end
+
+def long_planeteer_calls(list)
+end
