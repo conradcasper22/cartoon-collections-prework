@@ -20,5 +20,7 @@ def long_planeteer_calls(list)
 end
 
 def find_the_cheese(list)
-  
+  list.find do |x|
+    
+ end
 end
