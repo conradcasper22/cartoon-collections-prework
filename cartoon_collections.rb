@@ -14,5 +14,7 @@ def summon_captain_planet(list)
 end
 
 def long_planeteer_calls(list)
-  list.any?
+  list.any? do |x|
+    x.length > 4
+  end
 end
